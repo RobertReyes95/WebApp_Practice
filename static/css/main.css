@@ -1,0 +1,57 @@
+/*colors and font size option also padding(spaceing between elements on web page)*/
+
+body { 
+	font-family: Fira Code;
+	background-color: rgb(57, 98, 151);
+	padding: 20px;
+	text-align: center;}
+
+h1 { 
+	color: #0593d4;
+	background-color: rgb(129, 194, 214);
+	font-family: Monoid;
+	padding: inherit;
+	font-size: 2.0em;
+	font-style: italic;
+	letter-spacing: 0.2em;
+	text-align: center;}
+
+h2 {
+	color: #0593d4;
+	background-color: rgb(129, 194, 214);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding:inherit;
+	font-size: 200%;
+	font-style: oblique;
+	text-transform: uppercase;
+	word-spacing: 0.5em;
+	letter-spacing: 0.2em;
+	text-align: center;}
+
+p.zero {
+	padding: 5px;
+	margin: 0px;
+	text-decoration: underline;
+	font-family: Fira Code;
+	background-color: whitesmoke;}
+
+p.one {
+	font-size: 17px;
+	text-align: right;
+	padding: 5px;
+	font-family: monospace;
+	text-align: right;
+	font-size: 18px;
+	text-decoration: underline;}
+
+form.one {
+	font-size: 12px;
+	text-align: right;
+}
+
+/* @FONT FACE -  To add font that is downloaded on a user machine already. */
+
+@font-face {
+	font-family: 'ChunkFiveRegular';
+	src: url('fonts/chunkfive.eot');
+} 
